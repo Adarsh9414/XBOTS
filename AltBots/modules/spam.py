@@ -80,7 +80,7 @@ async def spam(event: events):
 async def pspam(event):
     if event.sender_id in SUDO_USERS:
         if event.chat_id in GROUP:
-            await event.reply("» ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪꜱ ᴀʟᴛʀᴏɴ ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.")
+            await event.reply("» ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪꜱ ⏤͟͞𐏓🇩𝐄𝐕𝚰𝐋»🅢𝐏𝗔𝐌𝄀꯭𝄄꯭™⎯꯭ͯ⟶ ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.")
         else:
             try:
                 counter = int(event.text.split(" ", 2)[1])
